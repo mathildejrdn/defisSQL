@@ -11,7 +11,6 @@ try {
 
     $lastUserId = $db->lastInsertId();
 
-
     $selectSql = "SELECT * FROM users WHERE id=:userId";
     
     // Préparation de la requête de sélection
